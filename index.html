@@ -3,29 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Laundry Wallah</title>
+    <title>LaundryWallah</title>
+    <link rel="stylesheet" href="stylesheet.css" />
   </head>
-
   <body>
-    <header>
-      <h1>WELCOME TO LAUNDRY WALLAH</h1>
-    </header>
-    <main>
-      <section id="about">
-        <p>
-          <strong>Laundry Wallah</strong> is your trusted neighborhood partner for <b>clean, fresh,
-          and hassle-free laundry care</b>. We combine modern technology with expert
-          handling to ensure your clothes get the care they deserve. From
-          everyday wear to delicate fabrics, we treat every garment with
-          precision and love. Our fast turnaround and reliable doorstep service
-          save you time and effort. At Laundry Wallah, cleanliness isn’t just a
-          service—it’s a promise. <em>Fresh clothes, happy customers, every time</em>.
-        </p>
+    <nav id="nav">
+      <img src="images\logo.png" alt="logo" id="logo" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#contactUs">Contact Us</a></li>
+      </ul>
+      <button class="btn">Username</button>
+    </nav>
+    <main id="content">
+      <section id="hero">
+        <div class="left">
+          <h1>LaundryWallah</h1>
+          <h3>Turn Laundry Day  </h3>
+          <h3>into a</h3>
+          <h3>Fresh Start</h3>
+          <p>
+            We don’t just clean clothes—we revive them. From gentle care to fast
+            doorstep service, experience laundry that feels effortless and
+            smells amazing.
+          </p>
+          <button class="left-btn" ><a href="#bookNow">Book a service today!</a></button>
+        </div>
+        <div class="right">
+          <img
+            src="/images/f4e6ec49-5e39-415f-ad80-ac9f5565d086.png"
+            alt="image"
+          />
+        </div>
       </section>
-      <sectoin id="image">
-        <img src="./images/f4e6ec49-5e39-415f-ad80-ac9f5565d086.png" height="400" alt="laundryWallah">
-      </sectoin>
-      <section id="service">
+        <section id="service">
         <h2>Our Services</h2>
         <ul>
             <li>Washing and Drying</li>
@@ -89,7 +102,7 @@
         </form>
       </section>
     </main>
-    <footer>
+    <footer id="contactUs">
         <p>Contact us at: <a href="info@laundryWallah.com">info@laundryWallah.com</a></p>
     </footer>
   </body>
